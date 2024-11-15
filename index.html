@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Калькулятор Услуг</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>«КАЛЬКУЛЯТОР»</h1>
+
+<div class="section">
+    <label>Стандартная уборка квартир/домов</label>
+    <input type="number" id="standardApartment" placeholder="Укажите количество квадратных метров"> <span class="unit">м. кв.</span>
+</div>
+
+<div class="section">
+    <label>Генеральная уборка квартир/домов</label>
+    <input type="number" id="deepApartment" placeholder="Укажите количество квадратных метров"> <span class="unit">м. кв.</span>
+</div>
+
+<div class="section">
+    <label>Стандартная уборка офисов/помещений</label>
+    <input type="number" id="standardOffice" placeholder="Укажите количество квадратных метров"> <span class="unit">м. кв.</span>
+</div>
+
+<div class="section">
+    <label>Генеральная уборка офисов/помещений</label>
+    <input type="number" id="deepOffice" placeholder="Укажите количество квадратных метров"> <span class="unit">м. кв.</span>
+</div>
+
+<div class="section">
+    <label>Мойка окон/фасадов одноэтажных зданий</label>
+    <input type="number" id="windowSingle" placeholder="Укажите количество квадратных метров"> <span class="unit">м. кв.</span>
+</div>
+
+<div class="section">
+    <label>Мойка окон/фасадов многоэтажных зданий</label>
+    <input type="number" id="windowMulti" placeholder="Укажите количество квадратных метров"> <span class="unit">м. кв.</span>
+</div>
+
+<div class="section">
+    <label>Химчистка ковровых изделий</label>
+    <input type="number" id="carpetCleaning" placeholder="Укажите количество квадратных метров"> <span class="unit">м. кв.</span>
+</div>
+
+<div class="section">
+    <label>Химчистка мягкой мебели</label>
+    <input type="number" id="furnitureCleaning" placeholder="Укажите количество квадратных метров"> <span class="unit">м. кв.</span>
+</div>
+
+<div class="total">
+    Сумма стоимости услуги: <span id="totalCost">0</span> рублей
+</div>
+
+<div class="info">
+    Все поля не являются обязательными к заполнению.<br>
+    Сумму рассчитывать из заполненных полей.
+</div>
+
+<!-- Link to the external JavaScript file -->
+<script src="cal.js"></script>
+
+</body>
+</html>
